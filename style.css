@@ -399,28 +399,8 @@ footer {
 }
 
 /* ====== BURGER MENU (Mobile Only) ====== */
-.burger-menu {
-  display: none;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  width: 36px;
-  height: 36px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 200;
-  cursor: pointer;
-}
-.burger-menu span {
-  display: block;
-  width: 28px;
-  height: 4px;
-  margin: 4px 0;
-  background: #000;
-  border-radius: 2px;
-  transition: 0.3s;
-}
+
+
 
 /* Burger menu overlay background */
 .burger-overlay {
@@ -657,7 +637,7 @@ footer {
 }
 .slider-imgs {
   width: 100%;
-  height: 260px;
+  height: 350px;
   position: relative;
   overflow: hidden;
   margin-bottom: 0.5rem;
@@ -681,9 +661,9 @@ footer {
   color: #000;
   border: none;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
   font-weight: 700;
   cursor: pointer;
   position: absolute;
@@ -693,10 +673,10 @@ footer {
   opacity: 0.8;
 }
 .slider-btn.left {
-  left: -18px;
+  left: -20px;
 }
 .slider-btn.right {
-  right: -18px;
+  right: -20px;
 }
 .slider-caption-products {
   color: #fff;
@@ -738,15 +718,28 @@ footer {
   /* INDEX/UMUM */
   .burger-menu {
     display: flex !important;
-    width: 20px !important;
-    height: 20px !important;
-    min-width: 20px !important;
-    min-height: 20px !important;
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+    min-height: 50px !important;
+    position: absolute;
+    top: 0rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    bottom: 1rem;
   }
   .burger-menu span {
-    width: 14px !important;
-    height: 2px !important;
-    margin: 2px 0 !important;
+    width: 23px !important;
+    height: 3px !important;
+    margin: 3px 0 !important;
+    background: #000;
+    border-radius: 2px;
+    transition: 0.3s;
+    display: block;
+    text-decoration: none !important;
   }
   .navbar {
     padding: 0 3vw !important;
@@ -764,8 +757,7 @@ footer {
   }
   .nav-logo, .nav-logo img {
     margin: 0 !important;
-    padding: 0 !important;
-    height: 20px !important;
+    height: 35px !important;
   }
   .nav-links, .nav-links.burger-active {
     margin: 0 !important;
@@ -828,10 +820,11 @@ footer {
     height: 36px;
     width: auto;
     display: block;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    padding-left: 10px;
   }
-  .burger-menu {
-    display: flex !important;
-  }
+
   .nav-links {
     display: none !important;
     position: fixed;
@@ -887,7 +880,7 @@ footer {
     flex: unset !important;
     width: 100vw !important;
     text-align: center !important;
-    font-size: 0.5rem !important;
+    font-size: 0.9rem !important;
     color: #000 !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -901,26 +894,26 @@ footer {
   }
 
   .canvas-section {
-    text-align: center;
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
+    text-align: left;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
     padding-top: 1rem;  
     padding-bottom: 1rem;
     min-height: unset;
   }
   .canvas-section h2 {
-    font-size: 0.95rem !important;
+    font-size: 2rem !important;
     font-weight: 700;
   }
   .canvas-desc {
     color: #ccc;
-    font-size: 0.6rem !important;
+    font-size: 1rem !important;
     margin-bottom: 2rem;
   }
   .canvas-section .canvas-gallery {
-    height: 180px !important;
+    height: 350px !important;
     max-width: 90vw !important;
-    max-height: 180px !important;
+    max-height: 350px !important;
     margin: 0 auto 0.5rem auto !important;
     overflow: hidden !important;
     position: relative !important;
@@ -935,9 +928,9 @@ footer {
     width: 70vw !important;
     max-width: 70vw !important;
     min-width: 90vw !important;
-    height: 180px !important;
-    max-height: 180px !important;
-    min-height: 180px !important;
+    height: 350px !important;
+    max-height: 350px !important;
+    min-height: 350px !important;
     object-fit: contain !important;
     position: absolute !important;
     left: 50% !important;
@@ -959,16 +952,15 @@ footer {
     position: absolute !important;
     top: 50% !important;
     transform: translateY(-50%) !important;
-    background: #fff !important;
+    background: #ffffff !important;
     color: #000 !important;
     border: none !important;
     border-radius: 50% !important;
-    width: 30px !important;
-    height: 30px !important;
-    font-size: 1.1rem !important;
+    width: 35px !important;
+    height: 35px !important;
+    font-size: 2rem !important;
     font-family: 'Montserrat', Arial, sans-serif !important;
     font-weight: 700 !important;
-    cursor: pointer !important;
     z-index: 10 !important;
     opacity: 0.8 !important;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
@@ -981,8 +973,8 @@ footer {
   .canvas-slider-prev { left: 8px !important; }
   .canvas-slider-next { right: 8px !important; }
   .canvas-slider-prev:hover, .canvas-slider-next:hover {
-    background: #eee !important;
-    color: #222 !important;
+    background: #eeeeee !important;
+    color: #000000 !important;
     transform: translateY(-50%) scale(1.08) !important;
   }
   .section-flex {
@@ -1000,29 +992,30 @@ footer {
     display: none !important;
   }
   .about-short-section {
-    text-align: center;
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
+    text-align: left;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
     padding-top: 1rem !important;
     padding-bottom: 0rem !important;
     min-height: unset;
     margin-bottom: 0rem !important;
   }
   .about-short-section h2 {
-    font-size: 1.1rem !important;
+    font-size: 2rem !important;
     font-weight: 700;
     letter-spacing: 1px;
   }
   .about-short-desc {
     max-width: 600px;
     margin: 0.5rem auto 0 auto;
-    font-size: 0.6rem !important;
+    font-size: 1rem !important;
     color: #ccc;
     line-height: 1.5;
+    text-align: left;
   }
   .about-short-logo {
-    width: 25px !important;
-    margin: 1rem auto 0 auto;
+    width: 40px !important;
+    margin: 2rem auto 0 auto;
     display: block;
   }
   .section-main {
@@ -1051,19 +1044,19 @@ footer {
     flex: 1 1 300px;
   }
   .drop-info h2 {
-    font-size: 1.1rem !important;
+    font-size: 2rem !important;
     font-weight: 700;
     margin-bottom: 0rem !important;
   }
   .drop-preorder {
-    font-size: 0.8rem !important;
+    font-size: 1.5rem !important;
     color: #fff;
     margin-bottom: 0.5rem !important;
     margin-top: 0rem !important;
   }
   .drop-desc {
     color: #ccc;
-    font-size: 0.6rem !important;
+    font-size: 1rem !important;
     margin-bottom: 0.5rem;
   }
   .btn-order {
@@ -1071,10 +1064,10 @@ footer {
     background: #fff !important;
     color: #000 !important;
     border-radius: 20px !important;
-    padding: 0.3rem 0.6rem !important; 
+    padding: 0.5rem 1.2rem !important; 
     text-decoration: none !important;
     font-weight: 700 !important;
-    font-size: 0.5rem !important;
+    font-size: 1rem !important;
     margin-top: 0.5rem !important;
     transition: background 0.2s, color 0.2s !important;
   }
@@ -1090,79 +1083,63 @@ footer {
     position: relative;
   }
   
-  .slider-btn {
-    background: #fff;
-    color: #000;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 3;
-    opacity: 0.8;
-  }
-  .slider-btn.left {
-    left: -18px;
-  }
-  .slider-btn.right {
-    right: -18px;
-  }
+.slider-btn {
+  background: #c9c9c9;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  opacity: 0.8;
+}
+.slider-btn.left {
+  left: 6px;
+}
+.slider-btn.right {
+  right: 6px;
+}
 
   .slider-caption {
     color: #fff;
-    font-size: 0.6rem !important;
+    font-size: 1rem !important;
     margin-top: 0.5rem;
     text-align: center;
   }
  
   .slider-caption-products {
     color: #fff;
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
     text-align: center;
   } 
   
-  .canvas-section {
-    text-align: center;
-    margin: 0 0 .5rem 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    min-height: unset;
-  }
-  .canvas-section h2 {
-    font-size: 2rem;
-    font-weight: 700;
-  }
-  .canvas-desc {
-    color: #ccc;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
+
  
 
   /* Staples Section (products) */
 .staples-section {
   background: #000;
   color: #fff;
-  text-align: center;
+  text-align: left;
   padding: 3rem 2rem 3rem 2rem;
   margin-bottom: 2.5rem;
   min-height: unset;
 }
 .staples-section h2 {
-  font-size: 1.1rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   text-align: left;
 }
 .staples-desc {
   color: #ccc;
-  font-size: 0.6rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   text-align: left;
 }
@@ -1173,7 +1150,7 @@ footer {
   align-items: center !important;
   justify-content: center !important;
   width: auto !important;
-  height: 260px !important;
+  height: 350px !important;
   max-width: 100vw !important;
   min-width: 0 !important;
   overflow-x: visible !important;
@@ -1215,9 +1192,9 @@ footer {
   color: #000 !important;
   border: none !important;
   border-radius: 50% !important;
-  width: 30px !important;
-  height: 30px !important;
-  font-size: 1.1rem !important;
+  width: 35px !important;
+  height: 35px !important;
+  font-size: 2rem !important;
   font-family: 'Montserrat', Arial, sans-serif !important;
   font-weight: 700 !important;
   cursor: pointer !important;
@@ -1239,25 +1216,25 @@ footer {
 .staples-bottom {
   display:flex;
   flex-wrap: wrap;
-  align-items: left;
   justify-content: left;
   gap: 0.5rem;
   margin-top: 1rem;
 }
 .staples-bottom-text {
-  font-size: 0.6rem;
+  font-size: 1rem;
   color: #fff;
   text-align: left;
+  gap: 1rem;
 }
 .btn-cop {
   display: inline-block;
   background: #fff;
   color: #000;
   border-radius: 20px;
-  padding: 0.3rem 0.6rem;
+  padding: 0.5rem 1rem;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.6rem;
+  font-size: 1rem;
   margin-top: 0.5rem;
   transition: background 0.2s, color 0.2s;
 }
@@ -1267,26 +1244,26 @@ footer {
 
 /* Studio Section (about only) */
 .studio-section {
-  text-align: center;
-  padding: 0rem 1.5rem 0rem 1.5rem !important;
+  text-align: left;
+  padding: 0rem 2rem 0rem 2rem !important;
 }
 .studio-section h2 {
-  font-size: 1.1rem !important;
+  font-size: 2rem !important;
   font-weight: 700;
   letter-spacing: 1px;
   margin: 0.1rem 0 2rem 0;
 }
 .studio-desc {
   max-width: 600px;
-  margin: 1rem auto 1rem auto;
-  font-size: 0.6rem !important;
+  margin: 1rem auto 2rem auto;
+  font-size: 1rem !important;
   color: #ccc;
   line-height: 1.5;
 
 }
 .studio-logo {
-  width: 25px !important;
-  margin: 0.5rem auto 0 auto;
+  width: 40px !important;
+  margin: 1rem auto 0 auto;
   display: block;
 }
 .studio-desc br {
@@ -1297,17 +1274,17 @@ footer {
 .film-section {
   background: #000;
   color: #fff;
-  text-align: center;
-  padding: 3rem 1.5rem 2rem 1.5rem;
+  text-align: left;
+  padding: 3rem 2rem 2rem 2rem;
 }
 .film-section h2 {
-  font-size: 1.1rem;
+  font-size: 2rem !important;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 .film-desc {
   color: #ccc;
-  font-size: 0.6rem;
+  font-size: 1rem !important;
   margin-bottom: 2rem;
 }
 .film-media {
@@ -1352,7 +1329,7 @@ footer {
 }
 .burger-nav-links li a {
   color: #fff !important;
-  font-size: 0.6rem !important;
+  font-size: 1rem !important;
   font-weight: 700 !important;
   text-transform: capitalize !important;
   letter-spacing: 2px !important;
